@@ -1,4 +1,4 @@
-package src.InicioGuanabara;
+package InicioGuanabara;
 
 public class primeiroPrograma {
     public static void main(String[] args) throws Exception {
