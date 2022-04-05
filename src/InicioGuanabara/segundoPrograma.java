@@ -1,4 +1,4 @@
-package src.InicioGuanabara;
+package InicioGuanabara;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
