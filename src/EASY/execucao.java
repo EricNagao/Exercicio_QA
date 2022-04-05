@@ -1,5 +1,7 @@
 package EASY;
 
+import javax.swing.JOptionPane;
+
 public class execucao {
     /*
     public static void main(String[] args) {
@@ -9,11 +11,11 @@ public class execucao {
     }
 */
     public static void main(String[] args) {
-        Exercicio_03_Easy exercicio_03_Easy =new Exercicio_03_Easy();
-        String primeiroValor = exercicio_03_Easy.doisValores("O Primeiro valor é 10");
-        System.out.println(primeiroValor);
-
-        String segundoValor = exercicio_03_Easy.doisValores("O Segundo valor é 4");
-        System.out.println(segundoValor);
+        String primeiroValor =JOptionPane.showInputDialog("Digite o primeiro Valor: ");
+        String segundoValor = JOptionPane.showInputDialog("Digite o Segundo valor: "); 
+        
+        Exercicio_03_Easy exercicio_03_Easy = new Exercicio_03_Easy(); //instanciando a classe do exercicio 3 easy.
+        System.out.println(exercicio_03_Easy.doisValores(primeiroValor, segundoValor)); // chama a o valor.
+        
     }
 }
