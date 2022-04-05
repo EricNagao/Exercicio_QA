@@ -1,5 +1,4 @@
 package EASY;
-import javax.swing.JOptionPane;
 
 public class Exercicio_02_Easy {
 
